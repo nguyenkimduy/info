@@ -10,6 +10,24 @@ Description: This Template is created for Youtubers
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
 @import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
 /* ===================================== Basic CSS ==================================== */
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  -webkit-border-radius: 6px;
+}
+
+.margin-right-5{
+  margin-right: 5px;
+}
+
 * {
   margin: 0px;
   padding: 0px;
