@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+}
+
+body::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    -webkit-border-radius: 6px;
+}
+
+@media screen and (max-width: 768px) {
+    body::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+}
+
+.margin-right-5 {
+    margin-right: 5px;
+}
